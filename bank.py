@@ -6,7 +6,7 @@ class Account:
         self.balance=balance
     
     def display(self):
-        print("Name: ",self.name,"Account No: ",self.acc_no,"Account tye: ",self.acc_type,"balance: ",self.balance)
+        print("Name: ",self.name,"Account No: ",self.acc_no,"Account type: ",self.acc_type,"balance: ",self.balance)
     
     def deposit(self,amount):
         self.balance+=amount
